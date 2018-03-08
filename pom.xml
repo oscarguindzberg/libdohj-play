@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.libdohj</groupId>
             <artifactId>libdohj-core</artifactId>
-            <version>0.14-dogethereum-2-SNAPSHOT</version>
+            <version>0.14-dogethereum-1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -43,4 +43,13 @@
             <version>1.3.167</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>dogethereumGithub</id>
+            <name>Dogethereum Github</name>
+            <url>https://raw.github.com/dogethereum/maven-repo/master/</url>
+        </repository>
+    </repositories>
+
 </project>
